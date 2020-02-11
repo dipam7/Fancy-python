@@ -1,5 +1,5 @@
 # Fancy-python
-This repo is based on my articles [How to be fancy with Python](https://towardsdatascience.com/how-to-be-fancy-with-python-8e4c53f47789) and [How to be fancy with OOP in Python](https://towardsdatascience.com/how-to-be-fancy-with-python-part-2-70fab0a3e492). It includes small Python tricks that will make your life much much easier. I hope they also help you become a better Python programmer. It is available as a jupyter notebook so you can clone and run it yourself. Also, if you know some tricks of your own, submit a pull request and I'll be more than happy to include it.
+This repo is based on my article [How to be fancy with Python](https://towardsdatascience.com/how-to-be-fancy-with-python-8e4c53f47789). It includes small Python tricks that will make your life much much easier. I hope they also help you become a better Python programmer. It is available as a jupyter notebook so you can clone and run it yourself. Also, if you know some tricks of your own, submit a pull request and I'll be more than happy to include it.
 
 ### -1. Keyboard shortcuts
 
@@ -158,6 +158,38 @@ If you haven't already stopped using strings for paths, stop right now!
 
 Check out [this article for more examples and explanations](https://medium.com/swlh/five-most-useful-pathlib-operations-77f9c96790b3).
 
+### 6. Generators
+
+We can use the yield keyword instead of return keyword in Python to create a generator. The advantage of using a generator is that is generates things on the fly and forgets them. This saves memory.
+
+![gen_1](https://github.com/dipam7/Fancy-python/blob/master/images/gen_1.png)
+
+We can also create them using comprehensions
+
+![gen_2](https://github.com/dipam7/Fancy-python/blob/master/images/gen_2.png)
+
+Proof that you can iterate over generators only once.
+
+![gen_3](https://github.com/dipam7/Fancy-python/blob/master/images/gen_3.png)
+
+To search for 5 in nums it had to generate numbers from 0 to 5. Now it starts from 6.
+
+### 7. dir, isinstance and hasattr
+
+If we want to know all the attributes and methods related to a particular object, we can use `dir()`
+
+![dir_1](https://github.com/dipam7/Fancy-python/blob/master/images/dir_1.png)
+
+We can also check for attributes directly using `hasattr`
+
+![dir_2](https://github.com/dipam7/Fancy-python/blob/master/images/dir_2.png)
+
+And we can check the type of a variable using isinstance. This is usually done to ensure the parameter passed to a function is of the correct type.
+
 ### Conclusion
 
-Those were some Python tricks that I believe would help everyone. If you'd like to learn some Jupyter tricks you can check them [here](https://medium.com/swlh/some-neat-jupyter-tricks-be0775c3f17).
+Those were some Python tricks that I believe would help everyone. Here's 2 more links for you. Keep learning.
+
+[How to be fancy with OOP in Python](https://towardsdatascience.com/how-to-be-fancy-with-python-part-2-70fab0a3e492)
+
+[Some neat Jupyter tricks](https://medium.com/swlh/some-neat-jupyter-tricks-be0775c3f17).
