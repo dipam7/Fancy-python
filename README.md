@@ -96,3 +96,46 @@ And finally create a comprehension in the format we need by choosing just the 0t
 ![Dict_comp_9](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_9.png)
 
 Go over that one more time to make sure you understand it.
+
+### 2. * operator
+
+I bet those comprehensions were a lot to take in. Let's move onto lighter stuff for a while
+
+The * operator can be used to repeat strings. For example
+
+![Star_1](https://github.com/dipam7/Fancy-python/blob/master/images/star_1.png)
+
+Now you probably don’t want to print “Python is cool” a whole lot of times but you should use it for something like this
+
+![Star_2](https://github.com/dipam7/Fancy-python/blob/master/images/star_2.png)
+
+The * operator can also be used to unpack iterables like lists
+
+![Star_3](https://github.com/dipam7/Fancy-python/blob/master/images/star_3.png)
+
+We can also use it with function arguments when we don't know the number of arguments in advance
+
+![Star_4](https://github.com/dipam7/Fancy-python/blob/master/images/star_4.png)
+
+`*args` is used for variable number of arguments and `**kwargs` is used for named arguments
+
+### 3. Partials
+
+Something else you can do with functions is create partial functions. What are they? 
+
+Suppose we have a function to calculate simple interest. We can set default values for some parameters (from right to left).
+
+![Partial_1](https://github.com/dipam7/Fancy-python/blob/master/images/partial_1.png)
+
+However, we cannot set the default value of just **p** in this way.
+
+We can do so using a partial function. In a partial function, we set default values for some arguments, left to right and then use that as a function. Let’s set a default value for just **p**.
+
+
+![Partial_2](https://github.com/dipam7/Fancy-python/blob/master/images/partial_2.png)
+
+Although partials work from left to right, we can also skip parameters in between by using named arguments.
+
+![Partial_3](https://github.com/dipam7/Fancy-python/blob/master/images/partial_3.png)
+
+Partials are mainly used when you want to fix a few parameters and experiment with the rest.
