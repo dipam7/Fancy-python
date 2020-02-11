@@ -45,4 +45,23 @@ This concept of applying a function to every element of the list reminds me of m
 
 ![Comprehensions_7](https://github.com/dipam7/Fancy-python/blob/master/images/comprehensions_7.png)
 
-Just like lists, there are comprehensions for dictionaries and generators but I will talk about them later.
+Just like lists, there are comprehensions for dictionaries and generators as well. We'll talk about generators later.
+
+Let's start with dictionaries. First let's learn about something called `operator.itemgetter`
+
+Say you have a list of lists like this
+
+![Dict_comp_1](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_1.png)
+
+and you want to get the first element of every list from the inner lists. You can do so as follows
+
+![Dict_comp_2](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_2.png)
+
+Cool right?
+
+Let me give you one more example. You can use it with the `key` argument in the sorted function.
+
+![Dict_comp_3](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_3.png)
+
+See how it works?
+
