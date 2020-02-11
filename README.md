@@ -139,3 +139,25 @@ Although partials work from left to right, we can also skip parameters in betwee
 ![Partial_3](https://github.com/dipam7/Fancy-python/blob/master/images/partial_3.png)
 
 Partials are mainly used when you want to fix a few parameters and experiment with the rest.
+
+### 4. Asserts
+
+Test driven development means you write tests and then you write code to pass those tests. You can write mini-tests in Python using **assert**. 
+
+For example, you might want to make sure the shape of a certain object is what you expect it to be.
+
+![Assert_1](https://github.com/dipam7/Fancy-python/blob/master/images/assert_1.png)
+
+You can also write a custom error message after a comma. Writing these mini-tests will be super helpful in making sure parts of your code work as expected. It will also help you debug things efficiently.
+
+### 5. Pathlib
+
+If you haven't already stopped using strings for paths, stop right now!
+
+![pathlib_1](https://github.com/dipam7/Fancy-python/blob/master/images/pathlib_1.png)
+
+Check out [this article for more examples and explanations](https://medium.com/swlh/five-most-useful-pathlib-operations-77f9c96790b3).
+
+### Conclusion
+
+Those were some Python tricks that I believe would help everyone. If you'd like to learn some Jupyter tricks you can check them [here](https://medium.com/swlh/some-neat-jupyter-tricks-be0775c3f17).
