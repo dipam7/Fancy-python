@@ -27,6 +27,8 @@ And if you need indexes by any chance you can just do
 
 ### 1. Comprehensions
 
+#### Lists
+
 The best part about Python is that you can accomplish so much in so less code. Take list comprehensions for example. If you want to create a list of numbers in a certain range you can easily do it as follows:
 
 ![Comprehensions 4](https://github.com/dipam7/Fancy-python/blob/master/images/comprehensions_4.png)
@@ -47,13 +49,15 @@ This concept of applying a function to every element of the list reminds me of m
 
 Just like lists, there are comprehensions for dictionaries and generators as well. We'll talk about generators later.
 
-Let's start with dictionaries. First let's learn about something called `operator.itemgetter`
+#### operator.itemgetter
+
+Let's start with dictionaries. First let's learn about something called `operator.itemgetter`. It retreives every element of the specified index.
 
 Say you have a list of lists like this
 
 ![Dict_comp_1](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_1.png)
 
-and you want to get the first element of every list from the inner lists. You can do so as follows
+and you want to get the first element of every inner list. You can do so as follows
 
 ![Dict_comp_2](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_2.png)
 
@@ -65,3 +69,30 @@ Let me give you one more example. You can use it with the `key` argument in the 
 
 See how it works?
 
+#### Dictionaries
+
+Okay back to dictionaries. A basic dictionary comprehension would be to map every element to an index.
+
+![Dict_comp_4](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_4.png)
+
+A good practice for such dictionaries is to also create the reverse mapping. Trust me, you'll need it later.
+
+![Dict_comp_5](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_5.png)
+
+We want to be able to do grouping in dictionaries like this:
+
+![Dict_comp_6](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_6.png)
+
+Let's break that down. The first thing we need to do for this to work is sorting by grade
+
+![Dict_comp_7](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_7.png)
+
+Then we can use itertools to group them
+
+![Dict_comp_8](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_8.png)
+
+And finally create a comprehension in the format we need by choosing just the 0th element from every tuple, in this case, student name
+
+![Dict_comp_9](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_9.png)
+
+Go over that one more time to make sure you understand it.
