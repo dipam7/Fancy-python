@@ -222,15 +222,11 @@ And we can check the type of a variable using isinstance. This is usually done t
 
 Those were some Python tricks that I believe would help everyone. Herea are some more links to keep you busy. Keep learning.
 
-[Upgrading python lists](https://towardsdatascience.com/upgrading-python-lists-35440096ec36)
-
-[How to be fancy with OOP in Python](https://towardsdatascience.com/how-to-be-fancy-with-python-part-2-70fab0a3e492)
-
-[Some neat Jupyter tricks](https://medium.com/swlh/some-neat-jupyter-tricks-be0775c3f17).
-
-[Primer on Python decorators](https://realpython.com/primer-on-python-decorators/#decorating-classes)
-
-[Primer on meta-classes in Python](https://jakevdp.github.io/blog/2012/12/01/a-primer-on-python-metaclasses/)
+- [Upgrading python lists](https://towardsdatascience.com/upgrading-python-lists-35440096ec36)
+- [How to be fancy with OOP in Python](https://towardsdatascience.com/how-to-be-fancy-with-python-part-2-70fab0a3e492)
+- [Some neat Jupyter tricks](https://medium.com/swlh/some-neat-jupyter-tricks-be0775c3f17).
+- [Primer on Python decorators](https://realpython.com/primer-on-python-decorators/#decorating-classes)
+- [Primer on meta-classes in Python](https://jakevdp.github.io/blog/2012/12/01/a-primer-on-python-metaclasses/)
 
 ### References:
 
