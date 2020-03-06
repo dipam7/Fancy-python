@@ -2,32 +2,19 @@
 This repo is based on my article [How to be fancy with Python](https://towardsdatascience.com/how-to-be-fancy-with-python-8e4c53f47789). It includes small Python tricks that will make your life much much easier. I hope they also help you become a better Python programmer. It is available as a jupyter notebook so you can clone and run it yourself. Also, if you know some tricks of your own, submit a pull request and I'll be more than happy to include it.
 
 **Table of contents**:
-
-[-1. Keyboard shortcuts](#ks)
-
-[0. Zip, enumerate](#ze)
-
-[1. Comprehensions](#c)
-  
-  [1.1 Lists](#l)
-  
-  [extra: operator.itemgetter()](#oi)
-  
-  [1.2 Dictionaries](#di)
-
-[2. Start operator ](#start)
-
-[3. Partials](#par)
-
-[4. Asserts](#ass)
-
-[5. Pathlib](#pat)
-
-[6. Generators](#gen)
-
-[7. dir, isinstance, hasattr](#dih)
-
-[Conclusion and further reading](#con)
+- [Keyboard shortcuts](#ks)
+- [Zip, enumerate](#ze)
+- [Comprehensions](#c)
+  * [Lists](#l)
+  * [extra: operator.itemgetter()](#oi)
+  * [Dictionaries](#di)
+- [Star operator ](#star)
+- [Partials](#par)
+- [Asserts](#ass)
+- [Pathlib](#pat)
+- [Generators](#gen)
+- [dir, isinstance, hasattr](#dih)
+- [Conclusion and further reading](#con)
 
 
 Things to include:
