@@ -1,6 +1,42 @@
 # Fancy-python
 This repo is based on my article [How to be fancy with Python](https://towardsdatascience.com/how-to-be-fancy-with-python-8e4c53f47789). It includes small Python tricks that will make your life much much easier. I hope they also help you become a better Python programmer. It is available as a jupyter notebook so you can clone and run it yourself. Also, if you know some tricks of your own, submit a pull request and I'll be more than happy to include it.
 
+**Table of contents**:
+
+[-1. Keyboard shortcuts](#ks)
+
+[0. Zip, enumerate](#ze)
+
+[1. Comprehensions](#c)
+  
+  [1.1 Lists](#l)
+  
+  [extra: operator.itemgetter()](#oi)
+  
+  [1.2 Dictionaries](#di)
+
+[2. Start operator ](#start)
+
+[3. Partials](#par)
+
+[4. Asserts](#ass)
+
+[5. Pathlib](#pat)
+
+[6. Generators](#gen)
+
+[7. dir, isinstance, hasattr](#dih)
+
+[Conclusion and further reading](#con)
+
+
+Things to include:
+posts from linkedin
+oopython
+L
+decorators and other articles I like
+
+<a name='ks'></a>
 ### -1. Keyboard shortcuts
 
 `TAB` to indent code
@@ -11,6 +47,7 @@ To comment a bunch of code, select it and press `CONTROL + /`
 
 To surround something with quotation marks or brackets around something, press `SHIFT + "` or `SHIFT + (`
 
+<a name='ze'></a>
 ### 0. Zip, enumerate
 
 Usually in Python, we loop over things like this:
@@ -25,8 +62,10 @@ And if you need indexes by any chance you can just do
 
 ![Comprehensions 3](https://github.com/dipam7/Fancy-python/blob/master/images/comprehensions_3.png)
 
+<a name='c'></a>
 ### 1. Comprehensions
 
+<a name='l'></a>
 #### Lists
 
 The best part about Python is that you can accomplish so much in so less code. Take list comprehensions for example. If you want to create a list of numbers in a certain range you can easily do it as follows:
@@ -49,6 +88,7 @@ This concept of applying a function to every element of the list reminds me of m
 
 Just like lists, there are comprehensions for dictionaries and generators as well. We'll talk about generators later.
 
+<a name='oi'></a>
 #### operator.itemgetter
 
 Let's start with dictionaries. First let's learn about something called `operator.itemgetter`. It retreives every element of the specified index.
@@ -69,6 +109,7 @@ Let me give you one more example. You can use it with the `key` argument in the 
 
 See how it works?
 
+<a name = 'di'></a>
 #### Dictionaries
 
 Okay back to dictionaries. A basic dictionary comprehension would be to map every element to an index.
@@ -97,6 +138,7 @@ And finally create a comprehension in the format we need by choosing just the 0t
 
 Go over that one more time to make sure you understand it.
 
+<a name = 'star'></a>
 ### 2. * operator
 
 I bet those comprehensions were a lot to take in. Let's move onto lighter stuff for a while
@@ -119,6 +161,7 @@ We can also use it with function arguments when we don't know the number of argu
 
 `*args` is used for variable number of arguments and `**kwargs` is used for named arguments
 
+<a name = 'par'></a>
 ### 3. Partials
 
 Something else you can do with functions is create partial functions. What are they? 
@@ -140,6 +183,7 @@ Although partials work from left to right, we can also skip parameters in betwee
 
 Partials are mainly used when you want to fix a few parameters and experiment with the rest.
 
+<a name = 'ass'></a>
 ### 4. Asserts
 
 Test driven development means you write tests and then you write code to pass those tests. You can write mini-tests in Python using **assert**. 
@@ -150,6 +194,7 @@ For example, you might want to make sure the shape of a certain object is what y
 
 You can also write a custom error message after a comma. Writing these mini-tests will be super helpful in making sure parts of your code work as expected. It will also help you debug things efficiently.
 
+<a name = 'pat'></a>
 ### 5. Pathlib
 
 If you haven't already stopped using strings for paths, stop right now!
@@ -158,6 +203,7 @@ If you haven't already stopped using strings for paths, stop right now!
 
 Check out [this article for more examples and explanations](https://medium.com/swlh/five-most-useful-pathlib-operations-77f9c96790b3).
 
+<a name = 'gen'></a>
 ### 6. Generators
 
 We can use the yield keyword instead of return keyword in Python to create a generator. The advantage of using a generator is that is generates things on the fly and forgets them. This saves memory.
@@ -174,6 +220,7 @@ Proof that you can iterate over generators only once.
 
 To search for 5 in nums it had to generate numbers from 0 to 5. Now it starts from 6.
 
+<a name = 'dih'></a>
 ### 7. dir, isinstance and hasattr
 
 If we want to know all the attributes and methods related to a particular object, we can use `dir()`
@@ -186,7 +233,8 @@ We can also check for attributes directly using `hasattr`
 
 And we can check the type of a variable using isinstance. This is usually done to ensure the parameter passed to a function is of the correct type.
 
-### Conclusion
+<a name = 'con'></a>
+### Conclusion and further reading
 
 Those were some Python tricks that I believe would help everyone. Here's 2 more links for you. Keep learning.
 
