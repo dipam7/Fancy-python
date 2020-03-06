@@ -193,3 +193,7 @@ Those were some Python tricks that I believe would help everyone. Here's 2 more 
 [How to be fancy with OOP in Python](https://towardsdatascience.com/how-to-be-fancy-with-python-part-2-70fab0a3e492)
 
 [Some neat Jupyter tricks](https://medium.com/swlh/some-neat-jupyter-tricks-be0775c3f17).
+
+### References:
+
+These things are referred from various sources but quite a few of them are referred from [fastai walkthrus](https://www.youtube.com/watch?v=44pe47sB4BI&list=PLJ3bz91D0hbrDaPFoN0dor0keyKnmvPqy)
