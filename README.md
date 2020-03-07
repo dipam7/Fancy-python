@@ -11,9 +11,10 @@ This repo is based on my article [How to be fancy with Python](https://towardsda
 - [Star operator ](#star)
 - [Partials](#par)
 - [Asserts](#ass)
-- [Pathlib](#pat)
+- [Pathlib and os.walk](#pat)
 - [Generators](#gen)
 - [dir, isinstance, hasattr](#dih)
+- [Cleaner constructor](#con)
 - [Conclusion and further reading](#con)
 
 
@@ -187,6 +188,10 @@ If you haven't already stopped using strings for paths, stop right now!
 
 Check out [this article for more examples and explanations](https://medium.com/swlh/five-most-useful-pathlib-operations-77f9c96790b3).
 
+Having said that, os.walk is a really fast way of traversing a directory recursively. 
+
+![pathlib_2](https://github.com/dipam7/Fancy-python/blob/master/images/pathlib_2.jpeg)
+
 <a name = 'gen'></a>
 ### 6. Generators
 
@@ -216,6 +221,18 @@ We can also check for attributes directly using `hasattr`
 ![dir_2](https://github.com/dipam7/Fancy-python/blob/master/images/dir_2.png)
 
 And we can check the type of a variable using isinstance. This is usually done to ensure the parameter passed to a function is of the correct type.
+
+### 8. Pipe instead of function chaining.
+
+If you want to run a bunch of functions through every element in your data, chaining them can get clunky. And writing multiple funciton calls everytime is not efficient. For this you can create a pipeline with inner functions.
+
+![pipe_1](https://github.com/dipam7/Fancy-python/blob/master/images/pipe_1.jpeg)
+
+### 9. Cleaner constructor
+
+When we define classes in python we write a lot of `self.something = something`. If our class takes a lot of parameters, this can soon become clunky. And it is also boring to type. We can very easily write a function to do this for us and call it inside our __init__.
+
+![con_1](https://github.com/dipam7/Fancy-python/blob/master/images/con_1.jpeg)
 
 <a name = 'con'></a>
 ### Conclusion and further reading
