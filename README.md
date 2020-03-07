@@ -1,5 +1,5 @@
 # Fancy-python
-This repo is based on my article [How to be fancy with Python](https://towardsdatascience.com/how-to-be-fancy-with-python-8e4c53f47789). It includes small Python tricks that will make your life much much easier. I hope they also help you become a better Python programmer. It is available as a jupyter notebook so you can clone and run it yourself. Also, if you know some tricks of your own, submit a pull request and I'll be more than happy to include it.
+This repo is based on my article [How to be fancy with Python](https://towardsdatascience.com/how-to-be-fancy-with-python-8e4c53f47789). It includes small Python tricks that will make your life much much easier. I hope they also help you become a better Python programmer. It is available as a [jupyter notebook](https://github.com/dipam7/Fancy-python/blob/master/fancy_python_github.ipynb) so you can clone and run it yourself. Also, if you know some tricks of your own, submit a pull request and I'll be more than happy to include it.
 
 **Table of contents**:
 - [Keyboard shortcuts](#ks)
@@ -14,7 +14,9 @@ This repo is based on my article [How to be fancy with Python](https://towardsda
 - [Pathlib and os.walk](#pat)
 - [Generators](#gen)
 - [dir, isinstance, hasattr](#dih)
-- [Cleaner constructor](#con)
+- [Pipe](#pipe)
+- [Cleaner constructor](#cons)
+- [All, Any](#aany)
 - [Conclusion and further reading](#con)
 
 
@@ -222,17 +224,26 @@ We can also check for attributes directly using `hasattr`
 
 And we can check the type of a variable using isinstance. This is usually done to ensure the parameter passed to a function is of the correct type.
 
+<a name = 'pipe'></a>
 ### 8. Pipe instead of function chaining.
 
 If you want to run a bunch of functions through every element in your data, chaining them can get clunky. And writing multiple funciton calls everytime is not efficient. For this you can create a pipeline with inner functions.
 
 ![pipe_1](https://github.com/dipam7/Fancy-python/blob/master/images/pipe_1.jpeg)
 
+<a name = 'cons'></a>
 ### 9. Cleaner constructor
 
 When we define classes in python we write a lot of `self.something = something`. If our class takes a lot of parameters, this can soon become clunky. And it is also boring to type. We can very easily write a function to do this for us and call it inside our __init__.
 
 ![con_1](https://github.com/dipam7/Fancy-python/blob/master/images/con_1.jpeg)
+
+<a name = 'aany'></a>
+### 10. All, any
+
+You can use these if you want to test something on all or any values of an iterable.
+
+![aany](https://github.com/dipam7/Fancy-python/blob/master/images/all_any.png)
 
 <a name = 'con'></a>
 ### Conclusion and further reading
