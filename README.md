@@ -1,5 +1,5 @@
 # Fancy-python
-This repo is based on my article [How to be fancy with Python](https://towardsdatascience.com/how-to-be-fancy-with-python-8e4c53f47789). It includes small Python tricks that will make your life much much easier. I hope they also help you become a better Python programmer. It is available as a [jupyter notebook](https://github.com/dipam7/Fancy-python/blob/master/fancy_python_github.ipynb) so you can clone and run it yourself. Also, if you know some tricks of your own, submit a pull request and I'll be more than happy to include it.
+This repo is based on my article [How to be fancy with Python](https://towardsdatascience.com/how-to-be-fancy-with-python-8e4c53f47789). It includes small Python tricks that will make your life much much easier. I hope they also help you become a better Python programmer. It is available as a [jupyter notebook](https://github.com/dipam7/Fancy-python/blob/master/fancy_python_github.ipynb) so you can clone and run it yourself. I also post [small tricks on Linkedin](https://www.linkedin.com/in/dvasani) so make sure to follow me there. Also, if you know some tricks of your own, submit a pull request and I'll be more than happy to include it.
 
 **Table of contents**:
 - [Keyboard shortcuts](#ks)
