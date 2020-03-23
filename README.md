@@ -17,6 +17,15 @@ This repo is based on my article [How to be fancy with Python](https://towardsda
 - [Pipe](#pipe)
 - [Cleaner constructor](#cons)
 - [All, Any](#aany)
+- [Multiple assignment](#ma)
+- [Callable](#ca)
+- [Advanced tricks](#mt)
+  * [2 loops in one line](#2l)
+  * [Flatten lists](#ft)
+  * [defaultdicts instead of dicts](#dd)
+  * [making delegation work](#deleg)
+  * [__all__ for better imports](#all)
+  
 - [Conclusion and further reading](#con)
 
 
@@ -250,6 +259,7 @@ You can use these if you want to test something on all or any values of an itera
 
 Those were some Python tricks that I believe would help everyone. Herea are some more links to keep you busy. Keep learning.
 
+- [A walkthru on writing better functions in Python]()
 - [Upgrading python lists](https://towardsdatascience.com/upgrading-python-lists-35440096ec36)
 - [How to be fancy with OOP in Python](https://towardsdatascience.com/how-to-be-fancy-with-python-part-2-70fab0a3e492)
 - [Some neat Jupyter tricks](https://medium.com/swlh/some-neat-jupyter-tricks-be0775c3f17).
