@@ -24,7 +24,7 @@ This repo is based on my article [How to be fancy with Python](https://towardsda
   * [Flatten lists](#ft)
   * [defaultdicts instead of dicts](#dd)
   * [making delegation work](#deleg)
-  * [__all__ for better imports](#all)
+  * [__ all __ for better imports](#all)
   
 - [Conclusion and further reading](#con)
 
@@ -254,12 +254,64 @@ You can use these if you want to test something on all or any values of an itera
 
 ![aany](https://github.com/dipam7/Fancy-python/blob/master/images/all_any.png)
 
+<a name = 'ma'></a>
+### 11. Multiple assignment
+
+You can assign the same value to multiple variables in Python as follows.
+
+![test](https://github.com/dipam7/Fancy-python/blob/master/images/multiple_assignment.png)
+
+<a name = 'ca'></a>
+### 12. Callable
+
+You can check if an object is callable in python using the **callable** keyword.
+
+![test](https://github.com/dipam7/Fancy-python/blob/master/images/callable.png)
+
+<a name = 'advt'></a>
+### 13. Advanced tricks
+
+<a name = '2l'></a>
+#### 2 loops in one line
+
+You can use Python's itertools library to write nested for loops in one line
+
+![test](https://github.com/dipam7/Fancy-python/blob/master/images/2loops.png)
+
+<a name = 'ft'></a>
+#### Flatten lists
+
+You can flatten lists in Python using sum(). You can also do this recursively 
+
+![test](https://github.com/dipam7/Fancy-python/blob/master/images/flatten_lists.png)
+
+<a name = 'dd'></a>
+#### defaultdict
+
+When you create a dictionary in Python, you might be using an if statement to check if a key is present. If it's not, you set a default value for that key, otherwise, you do something else. You can do the same using the .setdefault() method available with dictionaries in Python. However, an even cleaner way to do this is to use defaultdicts. Check out this example and then read the [documentation](https://docs.python.org/3/library/collections.html#collections.defaultdict)
+
+![test](https://github.com/dipam7/Fancy-python/blob/master/images/defaultdicts.png)
+
+<a name = 'delag'></a>
+#### Delegation in Python
+
+When an inherited class has * args or ** kwargs in its constructor, we want to replace those arguments with the arguments of the class it inherits from when showing the doc page or the help page. This is not the default behavior in Python. You can use the delegates function from [this article](https://lnkd.in/g3V95t3) to do so.
+
+![test](https://github.com/dipam7/Fancy-python/blob/master/images/delegation.png)
+
+<a name = 'all'></a>
+#### Dunder all for better imports
+
+We are not advised to use from library import * because it can import a lot of unnecessary things. To avoid this, when writing a library, we can define __ all __. Then, only the things contained in __ all __ will be exported.
+
+![test](https://github.com/dipam7/Fancy-python/blob/master/images/all_imports.png)
+
 <a name = 'con'></a>
 ### Conclusion and further reading
 
 Those were some Python tricks that I believe would help everyone. Herea are some more links to keep you busy. Keep learning.
 
-- [A walkthru on writing better functions in Python]()
+- [A walkthru on writing better functions in Python](https://towardsdatascience.com/a-walkthru-for-writing-better-functions-6cb37f2fa58c)
 - [Upgrading python lists](https://towardsdatascience.com/upgrading-python-lists-35440096ec36)
 - [How to be fancy with OOP in Python](https://towardsdatascience.com/how-to-be-fancy-with-python-part-2-70fab0a3e492)
 - [Some neat Jupyter tricks](https://medium.com/swlh/some-neat-jupyter-tricks-be0775c3f17).
