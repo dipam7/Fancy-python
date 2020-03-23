@@ -19,7 +19,7 @@ This repo is based on my article [How to be fancy with Python](https://towardsda
 - [All, Any](#aany)
 - [Multiple assignment](#ma)
 - [Callable](#ca)
-- [Advanced tricks](#mt)
+- [Advanced tricks](#advt)
   * [2 loops in one line](#2l)
   * [Flatten lists](#ft)
   * [defaultdicts instead of dicts](#dd)
@@ -292,7 +292,7 @@ When you create a dictionary in Python, you might be using an if statement to ch
 
 ![test](https://github.com/dipam7/Fancy-python/blob/master/images/defaultdicts.png)
 
-<a name = 'delag'></a>
+<a name = 'deleg'></a>
 #### Delegation in Python
 
 When an inherited class has * args or ** kwargs in its constructor, we want to replace those arguments with the arguments of the class it inherits from when showing the doc page or the help page. This is not the default behavior in Python. You can use the delegates function from [this article](https://lnkd.in/g3V95t3) to do so.
