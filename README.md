@@ -277,7 +277,7 @@ Membership checking in Python lists is a linear operation. You can use a set ins
 
 
 <a name = 'advt'></a>
-### 13. Advanced tricks
+### 14. Advanced tricks
 
 <a name = '2l'></a>
 #### 2 loops in one line
