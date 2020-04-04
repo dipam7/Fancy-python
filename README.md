@@ -1,5 +1,5 @@
 # Fancy-python
-This repo is based on my article [How to be fancy with Python](https://towardsdatascience.com/how-to-be-fancy-with-python-8e4c53f47789). It includes small Python tricks that will make your life much much easier. I hope they also help you become a better Python programmer. It is available as a [jupyter notebook](https://github.com/dipam7/Fancy-python/blob/master/fancy_python_github.ipynb) so you can clone and run it yourself. I also post [small tricks on Linkedin](https://www.linkedin.com/in/dvasani) so make sure to follow me there. Also, if you know some tricks of your own, submit a pull request and I'll be more than happy to include it.
+This repo is based on my article [How to be fancy with Python](https://towardsdatascience.com/how-to-be-fancy-with-python-8e4c53f47789). It includes small Python tricks that will make your life much much easier. I hope they also help you become a better Python programmer. It is available as a [jupyter notebook](https://github.com/dipam7/Fancy-python/blob/master/fancy_python_github.ipynb) so you can clone and run it yourself. I also post these [small tricks on Linkedin](https://www.linkedin.com/posts/dvasani_python-oneabrssabrpython-activity-6652115242383966208-iYG2) with [my own hashtag](https://www.linkedin.com/feed/hashtag/?highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6652115242383966208&keywords=%23one_ss_python&originTrackingId=BFp0%2B8VATZyjB2sqJjeD%2Bw%3D%3D) so make sure to follow me there. Also, if you know some tricks of your own, submit a pull request and I'll be more than happy to include it.
 
 **Table of contents**:
 - [Keyboard shortcuts](#ks)
@@ -19,6 +19,7 @@ This repo is based on my article [How to be fancy with Python](https://towardsda
 - [All, Any](#aany)
 - [Multiple assignment](#ma)
 - [Callable](#ca)
+- [Faster membership checking](#fmc)
 - [Advanced tricks](#advt)
   * [2 loops in one line](#2l)
   * [Flatten lists](#ft)
@@ -267,6 +268,13 @@ You can assign the same value to multiple variables in Python as follows.
 You can check if an object is callable in python using the **callable** keyword.
 
 ![test](https://github.com/dipam7/Fancy-python/blob/master/images/callable.png)
+
+<a name = 'fmc'></a>
+### 13. Faster Membership Checking
+Membership checking in Python lists is a linear operation. You can use a set instead to make it faster. Set's are implemented as hash maps and will give you constant time. 
+
+![test](https://github.com/dipam7/Fancy-python/blob/master/images/mem_check.png)
+
 
 <a name = 'advt'></a>
 ### 13. Advanced tricks
