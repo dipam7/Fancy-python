@@ -121,19 +121,7 @@ We want to be able to do grouping in dictionaries like this:
 
 ![Dict_comp_6](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_6.png)
 
-Let's break that down. The first thing we need to do for this to work is sorting by grade
-
-![Dict_comp_7](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_7.png)
-
-Then we can use itertools to group them
-
-![Dict_comp_8](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_8.png)
-
-And finally create a comprehension in the format we need by choosing just the 0th element from every tuple, in this case, student name
-
-![Dict_comp_9](https://github.com/dipam7/Fancy-python/blob/master/images/dict_comp_9.png)
-
-Go over that one more time to make sure you understand it.
+However, we don't want to write so much nested code. We can just use [default_dicts](#dd) for this.
 
 <a name = 'star'></a>
 ### 2. * operator
