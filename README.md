@@ -26,6 +26,7 @@ This repo is based on my article [How to be fancy with Python](https://towardsda
   * [defaultdicts instead of dicts](#dd)
   * [making delegation work](#deleg)
   * [__ all __ for better imports](#all)
+  * [map all your iterables](#map_all)
   
 - [Conclusion and further reading](#con)
 
@@ -301,6 +302,10 @@ When an inherited class has * args or ** kwargs in its constructor, we want to r
 We are not advised to use from library import * because it can import a lot of unnecessary things. To avoid this, when writing a library, we can define __ all __. Then, only the things contained in __ all __ will be exported.
 
 ![test](https://github.com/dipam7/Fancy-python/blob/master/images/all_imports.png)
+
+<a name = 'map_all'></a>
+### Map all your iterables
+![test](https://github.com/dipam7/Fancy-python/blob/master/images/map.png)
 
 <a name = 'con'></a>
 ### Conclusion and further reading
